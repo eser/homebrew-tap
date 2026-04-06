@@ -1,28 +1,28 @@
 class Eser < Formula
   desc "Terminal client for Eser's work"
   homepage "https://github.com/eser/stack"
-  version "4.1.55"
+  version "4.1.56"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/eser/stack/releases/download/v4.1.55/eser-v4.1.55-aarch64-apple-darwin.tar.gz"
-      sha256 "7a8a531930b31aca21a32e808a6fbb580dd866d0a17da271496c3d187cf58a21"
+      url "https://github.com/eser/stack/releases/download/v4.1.56/eser-v4.1.56-aarch64-apple-darwin.tar.gz"
+      sha256 "44ce5ac614c3ca9ba64845d95f0e4534ddf1d003304642a992407612a2728d89"
     end
     on_intel do
-      url "https://github.com/eser/stack/releases/download/v4.1.55/eser-v4.1.55-x86_64-apple-darwin.tar.gz"
-      sha256 "72360d581592958649ff05a515da297e27e1ed0d8be1fe4b543fbb74680a5a3b"
+      url "https://github.com/eser/stack/releases/download/v4.1.56/eser-v4.1.56-x86_64-apple-darwin.tar.gz"
+      sha256 "cd30ab0c8465a1b6b3a170ab8b554399cf618c9a97ef068b4cb01e36b9f8c7a7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eser/stack/releases/download/v4.1.55/eser-v4.1.55-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a3bbe50668bbcee89582c60dca1e516e7496b456b90ed29dcc1d07661f8d2e81"
+      url "https://github.com/eser/stack/releases/download/v4.1.56/eser-v4.1.56-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "506693757295a33e33f9ee81f8cccf6f77cc8205c459b280e3d587141428d88b"
     end
     on_intel do
-      url "https://github.com/eser/stack/releases/download/v4.1.55/eser-v4.1.55-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a315db578cfc8b3e300307aec062df07625fea2c4f300e7740e2e50922b4fe6a"
+      url "https://github.com/eser/stack/releases/download/v4.1.56/eser-v4.1.56-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "721de2b289e6fcb2cbadb5b70b8ec790ed87b29980284d30a59ced9c3ae33b10"
     end
   end
 
