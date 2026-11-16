@@ -1,28 +1,27 @@
 class Eser < Formula
   desc "Terminal client for Eser's work"
   homepage "https://github.com/eser/stack"
-  version "4.1.56"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/eser/stack/releases/download/v4.1.56/eser-v4.1.56-aarch64-apple-darwin.tar.gz"
-      sha256 "44ce5ac614c3ca9ba64845d95f0e4534ddf1d003304642a992407612a2728d89"
+      url "https://github.com/eser/stack/releases/download/v5.0.0/eser-v5.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6e1ae448038ce5adb84b82800fee9855ab2fb2b691a75065a83ee6e74d602749"
     end
     on_intel do
-      url "https://github.com/eser/stack/releases/download/v4.1.56/eser-v4.1.56-x86_64-apple-darwin.tar.gz"
-      sha256 "cd30ab0c8465a1b6b3a170ab8b554399cf618c9a97ef068b4cb01e36b9f8c7a7"
+      url "https://github.com/eser/stack/releases/download/v5.0.0/eser-v5.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "33da49d24c4587ae13ba186db46e0bef88b5ce284d40ff0501ebfc371d3cdcde"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eser/stack/releases/download/v4.1.56/eser-v4.1.56-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "506693757295a33e33f9ee81f8cccf6f77cc8205c459b280e3d587141428d88b"
+      url "https://github.com/eser/stack/releases/download/v5.0.0/eser-v5.0.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "71561790468b70f8a77dc343605021803dcc5dd4afe561374dbbca8270434569"
     end
     on_intel do
-      url "https://github.com/eser/stack/releases/download/v4.1.56/eser-v4.1.56-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "721de2b289e6fcb2cbadb5b70b8ec790ed87b29980284d30a59ced9c3ae33b10"
+      url "https://github.com/eser/stack/releases/download/v5.0.0/eser-v5.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6e5e482be36d274ba015fd445e5751c186fb01911f92f5c9b774efa3f04c5988"
     end
   end
 
@@ -44,11 +43,11 @@ class Eser < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/eser version --bare")
+    assert_match version.to_s, shell_output("#{bin}/eser --version")
 
     # Verify the Go bridge is functional when the shared library is installed.
     if (lib/"libeser_ajan.dylib").exist? || (lib/"libeser_ajan.so").exist?
-      assert_match(/\d+\.\d+/, shell_output("#{bin}/eser go version"))
+      assert_match(/\d+\.\d+/, shell_output("#{bin}/eser --version"))
     end
   end
 end
