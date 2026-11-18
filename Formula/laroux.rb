@@ -7,23 +7,23 @@ class Laroux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/laroux-v5.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "58e88141c9f358fa117bfacb33ac1e3cd8b7e0403925991cb74772e1d12c5d9c"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/laroux-v5.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "7382236801912be05d70948af68a239075ad77bc45038135d51fade775e2e18b"
     end
     on_intel do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/laroux-v5.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8d58ca0d3beb30a148ae4050f4f58de657d27e257d30e9a762b05b57c8804f89"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/laroux-v5.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6cb639b9625c6c34e0e7b4dda423b043bbf4ffb906d688122be4fa9be23e6000"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/laroux-v5.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "dadd705447d119ebd3a6d7cf5a982899967a0923d28f16767a801f7fe1b16a81"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/laroux-v5.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "95094ab14e3583649c8309458e883ecd5e1f4fbd1c515a21edcfaa4a61a3d475"
     end
     on_intel do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/laroux-v5.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0e67a510edef8807958ca866df206041c61d930d42800c880cd8b1fa65f78571"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/laroux-v5.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c53f3943f98ebbc6a874d8ffe1110d3cea13c81415ab185fee346872b3504a2e"
     end
   end
 

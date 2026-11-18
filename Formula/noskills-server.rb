@@ -5,23 +5,23 @@ class NoskillsServer < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/noskills-server-v5.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1f73b5bb10aee9cdd38bf3fc1e72f0a87aa735ece6d1cf488512d09ad6e5f939"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/noskills-server-v5.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f7cda0ede8d29e09e7952a01560439f36df1735256fd32cbfdb9a7de484e2492"
     end
     on_intel do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/noskills-server-v5.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8f5e2054ba625ce47a2d1bdf6d9d8aa94b894d30b7f9f9597c213825bcc3e080"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/noskills-server-v5.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "2d66ad928dc97706b41e67baf6199b5d3730ba6a557b8ab1689f6b9bb56bb594"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/noskills-server-v5.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "342f440c84861cb7e5a0096035dbdae94495cd2185b308084574c88d63a3a4ed"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/noskills-server-v5.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f957701b0738361074c09d39b7fe33a6d59e271cb28a6a03a6dd505f19c1594e"
     end
     on_intel do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/noskills-server-v5.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "42992f5de93a84db806306093cb11b4367cf48c40efdeaf0aca42dedaee53c49"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/noskills-server-v5.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e5babd900ce04fac20aa4b48ab3d3b1c542b0a8206fba38b795a4ffdf5acb386"
     end
   end
 

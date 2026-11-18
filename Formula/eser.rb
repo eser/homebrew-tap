@@ -5,23 +5,23 @@ class Eser < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/eser-v5.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6e1ae448038ce5adb84b82800fee9855ab2fb2b691a75065a83ee6e74d602749"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/eser-v5.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3a3276e070a83e61305646c2d5f58769c70f54b1ce5dc6d0c3c481128a857c5e"
     end
     on_intel do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/eser-v5.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "33da49d24c4587ae13ba186db46e0bef88b5ce284d40ff0501ebfc371d3cdcde"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/eser-v5.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7a3865c5e91797232b559f5deed1fa5d78d37c82657139be860262e435a2fc41"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/eser-v5.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "71561790468b70f8a77dc343605021803dcc5dd4afe561374dbbca8270434569"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/eser-v5.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "af23512758d6f2698fa5810d3dad3518f5a3688acb88f975872bd65ca77317fb"
     end
     on_intel do
-      url "https://github.com/eser/stack/releases/download/v5.0.0/eser-v5.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6e5e482be36d274ba015fd445e5751c186fb01911f92f5c9b774efa3f04c5988"
+      url "https://github.com/eser/stack/releases/download/v5.1.0/eser-v5.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3c2d694f3202709eb799cf931237c3ea51ebe772d3149ed137d996ca9c70f2e8"
     end
   end
 
